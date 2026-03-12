@@ -97,7 +97,7 @@ const ProductList = () => {
                                         <CardMedia
                                             component="img"
                                             height="220"
-                                            image={product.image_url ? `http://localhost:5000/uploads/${product.image_url}` : 'https://via.placeholder.com/300x200?text=Bakery+Item'}
+                                            image={product.image_url ? `https://fullstackbackend-h6xy.onrender.com/uploads/${product.image_url}` : 'https://via.placeholder.com/300x200?text=Bakery+Item'}
                                             alt={product.name}
                                         />
                                         <CardContent>

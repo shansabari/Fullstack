@@ -65,7 +65,7 @@ const Cart = () => {
                                     <Grid container spacing={2} alignItems="center">
                                         <Grid item xs={3}>
                                             <img
-                                                src={item.image_url ? `http://localhost:5000/uploads/${item.image_url}` : 'https://via.placeholder.com/150'}
+                                                src={item.image_url ? `https://fullstackbackend-h6xy.onrender.com/uploads/${item.image_url}` : 'https://via.placeholder.com/150'}
                                                 alt={item.name}
                                                 style={{ width: '100%', borderRadius: '10px' }}
                                             />

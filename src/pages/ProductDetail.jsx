@@ -67,7 +67,7 @@ const ProductDetail = () => {
                 <Grid item xs={12} md={6}>
                     <Box sx={{ borderRadius: '20px', overflow: 'hidden', boxShadow: '0 10px 40px rgba(0,0,0,0.1)' }}>
                         <img
-                            src={product.image_url ? `http://localhost:5000/uploads/${product.image_url}` : 'https://via.placeholder.com/600x600?text=Bakery+Item'}
+                            src={product.image_url ? `https://fullstackbackend-h6xy.onrender.com/uploads/${product.image_url}` : 'https://via.placeholder.com/600x600?text=Bakery+Item'}
                             alt={product.name}
                             style={{ width: '100%', height: 'auto', display: 'block' }}
                         />

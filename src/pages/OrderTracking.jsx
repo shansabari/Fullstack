@@ -56,7 +56,7 @@ const OrderTracking = () => {
                                     <Box sx={{ display: 'flex', justifyContent: 'space-between', py: 2 }}>
                                         <Box sx={{ display: 'flex', gap: 2 }}>
                                             <img
-                                                src={item.image_url ? `http://localhost:5000/uploads/${item.image_url}` : 'https://via.placeholder.com/60/9d6b53/white?text=Cake'}
+                                                src={item.image_url ? `https://fullstackbackend-h6xy.onrender.com/uploads/${item.image_url}` : 'https://via.placeholder.com/60/9d6b53/white?text=Cake'}
                                                 width="60"
                                                 height="60"
                                                 style={{ borderRadius: '8px', objectFit: 'cover' }}
